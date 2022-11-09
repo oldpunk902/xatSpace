@@ -1,0 +1,283 @@
+body {
+    background:url('https://i.ibb.co/0VpS5Nb/owp70eveh8651.png'),center no-repeat, #5D8CB0;
+    background-size: cover;
+
+}
+    
+
+*{
+    color: #5D8CB0}*{transition: all 0.66s ease-in-out
+}
+
+*{
+    -webkit-user-select:none
+}
+
+[name=bod]{
+    width:305px;
+    
+}
+
+[name=bod]{
+    padding:25px 20px 25px 40px;
+
+
+}
+
+[name=bod]{
+    height:50px
+}
+
+[name=bod]{
+    margin-top:99px
+}
+
+[name=bod]{
+    display:inline-block
+}
+
+[name=bod]{
+    background:#090810;
+
+}
+
+[name=bod]{
+    margin-left:600px
+}
+
+[name=bod]{
+    border-top-right-radius:100px
+}
+
+[name=bod]{
+    border-bottom-right-radius:100px
+}
+
+[name=bod]{
+    box-shadow:-1px 1px 2px rgba(0, 0, 0, 0.35)
+}
+
+
+[name=icon]{
+    border:7px solid #090810;
+
+}
+
+[name=icon]{
+    box-shadow:-1px 1px 2px rgba(0, 0, 0, 0.35);
+   
+}
+
+[name=icon]{
+    width:128px
+}
+
+[name=icon]{
+    height:128px
+}
+
+[name=icon]{
+    display:block
+}
+
+[name=icon]{
+    position:absolute
+}
+
+[name=icon]{
+    border-radius:100%
+}
+    
+[name=icon]{
+    margin-left:490px
+}
+
+[name=icon]{
+    margin-top:78px
+}
+
+[name=icon]:hover{
+    -webkit-transform:rotate(15deg)
+}
+
+[name=info]{
+    width: 300px
+}
+
+[name=info]{
+    background: #090810
+}
+
+[name=info]{
+    font-size: 12px
+}
+
+[name=info]{
+    letter-spacing: 1px
+}
+
+[name=info]{
+    margin-left: -2px
+}
+
+[name=info]{
+    margin-top: 17px
+}
+
+[name=info]{
+    opacity: 0
+}
+
+[name=info]{
+    padding: 7px
+}
+
+[name=info]{
+    position: fixed
+}
+
+[name=info]{
+    z-index: 9
+}
+
+[name=info]{
+    -webkit-transition: all 0.5s ease-in-out
+}
+
+[name=info]:hover{
+    opacity: 1
+}
+
+[name=info]:hover{
+    -webkit-transition: all 0.5s ease-in-out
+}
+
+[name=info]a{
+    position: relative
+}
+
+[name=info]a {
+    text-transform: lowercase
+}
+
+[name=info]a {
+    display: block
+}
+
+[name=info]a {
+    margin: 0px 5px 0px 0px
+}
+
+[name=info]a {
+    padding: 3px
+}
+    
+[name=©]{
+   width: 30px
+}
+
+[name=©]{
+    height: 10px
+}
+
+[name=©]{
+    bottom: 20px
+}
+
+[name=©]{
+    padding: 10px
+}
+
+[name=©]{
+    padding-bottom: 10px
+}
+
+[name=©]{
+    position: fixed
+}
+
+[name=©]{
+    right: 10px
+}
+
+[name=©]{
+    z-index: 9
+}
+
+[name=©]{
+    -webkit-filter: opacity(0.2)
+}
+
+[name=©]:hover{
+    -webkit-filter: opacity(1)
+}
+
+[name=player]{
+    top: 10px
+}
+
+[name=player]{
+    padding: 5px
+}
+
+[name=player]{
+    position: fixed
+}
+
+[name=player]{
+    right: 5px
+}
+
+[name=player]{
+    z-index: 9
+}
+
+[name=player]{
+    padding-top: 5px;
+}
+
+
+/* image gallery */
+
+
+@import "compass/css3";
+
+
+.gallery {
+  width: 790px;
+  margin: 0 auto;
+  background: rgb(14, 13, 13);
+  margin-top: 50px;
+  box-shadow: 0 0 30px rgb(221, 220, 220);
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 6px;
+}
+
+.gallery > div > img {
+  width: 250px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.5,1.5);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.cf:after {
+    clear: both;
+}
